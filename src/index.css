@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Anta&family=Comfortaa&family=Playfair+Display:wght@300..700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    --black-gradient: linear-gradient(
+      144.39deg,
+      #ffffff -278.56%,
+      #6d6d6d -78.47%,
+      #11101d 91.61%
+    );
+    --card-shadow: 0px 20px 100px -10px rgba(66, 71, 91, 0.1);
+  }
+  
+  * {
+    scroll-behavior: smooth;
+  }
+
+.color-icon {
+    background-color: #6d6d6d;
+}
+.mask1 {
+  mask-image: url('assets/yellow-bg 2.svg');
+  mask-repeat: no-repeat;    
+}
+.icon{
+  color: #1e232f;
+  font-size: 50px
+}
